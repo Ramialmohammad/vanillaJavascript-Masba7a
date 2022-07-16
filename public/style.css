@@ -1,0 +1,60 @@
+
+body{
+	background-image: url(banner.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.counter-btn {
+        background-color: #0076ff;
+        width: 130px;
+        height: 130px;
+        margin: auto;
+        border-radius: 100px 100px 100px 100px;
+        border: 0 solid #000;
+        color: white;
+        font-size: 24px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .count-value{
+    	/*position: absolute;*/
+    	color: white;
+    	/*text-align: center;*/
+    	/*top: 120px;*/
+    	font-size: 2em;
+    	/*eft: 200px;*/
+    }
+
+
+.increase{
+	color: white;
+	width: 130px;
+    height: 130px;
+    border-radius: 100px 100px 100px 100px;
+	background-color: blue;
+	padding: 10%;
+	margin: 10%;
+}
+
+.row{
+	
+}
+.fa{
+	color: white;
+}
+.col{
+	text-align: center;
+}
+
+.reset{
+        padding: 1px;
+        padding: 1px;
+        position: absolute;
+        right: 4px;
+    
+}
